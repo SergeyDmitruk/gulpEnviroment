@@ -66,3 +66,5 @@ gulp.task('serve', function(){
 });
 
 gulp.task('dev', gulp.series('build', gulp.parallel('watch', 'serve')));
+
+gulp.task('prod', gulp.series('build'));
