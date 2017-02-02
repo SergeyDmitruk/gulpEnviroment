@@ -10,7 +10,7 @@ module.exports = function(options){
     return function(){
         return combine(
 
-            gulp.src(options.src),
+            gulp.src(options.src , {since : gulp.lastRun('jade')}),
             $.jadeGlobbing(),
             $.jade({
                 pretty: '\t'
