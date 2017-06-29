@@ -1,0 +1,40 @@
+{
+  "name": "mag2gulp",
+  "version": "1.0.0",
+  "description": "This pre version Gulp task runner for Magento2",
+  "main": "gulpfile.js",
+  "scripts": {
+    "foo": "npm install"
+  },
+  "author": "Dmitruk Sergiy - dmitruksl92@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "browser-sync": "^2.18.12",
+    "cssnano": "^3.10.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.6",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-extname": "^0.2.2",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-less": "^3.3.2",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-nunjucks-render": "^2.2.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-prettify": "^0.5.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.2",
+    "jquery": "^3.2.1",
+    "postcss": "^6.0.3",
+    "postcss-assets": "^4.1.0",
+    "postcss-pxtorem": "^4.0.1",
+    "postcss-selector-matches": "^3.0.1",
+    "postcss-sprites": "^4.2.1"
+  }
+}
